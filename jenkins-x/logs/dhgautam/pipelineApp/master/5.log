@@ -1,0 +1,33 @@
+
+Showing logs for build [32mdhgautam-pipelineapp-master-rel-lw5cf-5[0m stage [32mfrom-build-pack[0m and container [32mcredential-initializer[0m
+{"level":"info","ts":1595480987.229101,"caller":"creds-init/main.go:44","msg":"Credentials initialized."}
+
+Showing logs for build [32mdhgautam-pipelineapp-master-rel-lw5cf-5[0m stage [32mfrom-build-pack[0m and container [32mworking-dir-initializer[0m
+
+Showing logs for build [32mdhgautam-pipelineapp-master-rel-lw5cf-5[0m stage [32mfrom-build-pack[0m and container [32mplace-tools[0m
+
+Showing logs for build [32mdhgautam-pipelineapp-master-rel-lw5cf-5[0m stage [32mfrom-build-pack[0m and container [32mstep-git-source-dhgautam-pipelineapp-master-rel-lw5cf-q76nv[0m
+{"level":"info","ts":1595480995.7768233,"caller":"git/git.go:105","msg":"Successfully cloned https://github.com/********/pipelineApp.git @ v0.0.7 in path /workspace/source"}
+{"level":"warn","ts":1595480995.776926,"caller":"git/git.go:152","msg":"Unexpected error: creating symlink: symlink /tekton/home/.ssh /root/.ssh: file exists"}
+{"level":"info","ts":1595480995.8198602,"caller":"git/git.go:133","msg":"Successfully initialized and updated submodules in path /workspace/source"}
+
+Showing logs for build [32mdhgautam-pipelineapp-master-rel-lw5cf-5[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-builder-home[0m
+
+Showing logs for build [32mdhgautam-pipelineapp-master-rel-lw5cf-5[0m stage [32mfrom-build-pack[0m and container [32mstep-git-merge[0m
+Using SHAs from PULL_REFS=master:10338e6bd16f9fec527e28dcd22a3c827b2266dd
+WARNING: no SHAs to merge, falling back to initial cloned commit
+
+Showing logs for build [32mdhgautam-pipelineapp-master-rel-lw5cf-5[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-jx-git-credentials[0m
+Generated Git credentials file /tekton/home/git/credentials
+
+Showing logs for build [32mdhgautam-pipelineapp-master-rel-lw5cf-5[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-download-dependencies[0m
+downloading dependencies for **
+
+Showing logs for build [32mdhgautam-pipelineapp-master-rel-lw5cf-5[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-set-permissions[0m
+running chmod command
+
+Showing logs for build [32mdhgautam-pipelineapp-master-rel-lw5cf-5[0m stage [32mfrom-build-pack[0m and container [32mstep-build-pre-dummy-release[0m
+pre dummy release
+
+Showing logs for build [32mdhgautam-pipelineapp-master-rel-lw5cf-5[0m stage [32mfrom-build-pack[0m and container [32mstep-build-replaced-release[0m
+executing replaced-release step
