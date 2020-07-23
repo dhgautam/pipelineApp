@@ -1,0 +1,28 @@
+
+Showing logs for build [32mmeta-dhgautam-pipelineapp-maste-2gtbz-2[0m stage [32mmeta-pipeline[0m and container [32mcredential-initializer[0m
+{"level":"info","ts":1595480506.6131227,"caller":"creds-init/main.go:44","msg":"Credentials initialized."}
+
+Showing logs for build [32mmeta-dhgautam-pipelineapp-maste-2gtbz-2[0m stage [32mmeta-pipeline[0m and container [32mworking-dir-initializer[0m
+
+Showing logs for build [32mmeta-dhgautam-pipelineapp-maste-2gtbz-2[0m stage [32mmeta-pipeline[0m and container [32mplace-tools[0m
+
+Showing logs for build [32mmeta-dhgautam-pipelineapp-maste-2gtbz-2[0m stage [32mmeta-pipeline[0m and container [32mstep-git-source-meta-dhgautam-pipelineapp-maste-2gtbz-75rhl[0m
+{"level":"info","ts":1595480513.688128,"caller":"git/git.go:105","msg":"Successfully cloned https://github.com/********/pipelineApp.git @ e6ad4f67a95de40fc04752631cbe7f26d7fff0b7 in path /workspace/source"}
+{"level":"warn","ts":1595480513.6890259,"caller":"git/git.go:152","msg":"Unexpected error: creating symlink: symlink /tekton/home/.ssh /root/.ssh: file exists"}
+{"level":"info","ts":1595480513.733235,"caller":"git/git.go:133","msg":"Successfully initialized and updated submodules in path /workspace/source"}
+
+Showing logs for build [32mmeta-dhgautam-pipelineapp-maste-2gtbz-2[0m stage [32mmeta-pipeline[0m and container [32mstep-setup-builder-home[0m
+
+Showing logs for build [32mmeta-dhgautam-pipelineapp-maste-2gtbz-2[0m stage [32mmeta-pipeline[0m and container [32mstep-git-merge[0m
+Using SHAs from PULL_REFS=master:e6ad4f67a95de40fc04752631cbe7f26d7fff0b7
+WARNING: no SHAs to merge, falling back to initial cloned commit
+
+Showing logs for build [32mmeta-dhgautam-pipelineapp-maste-2gtbz-2[0m stage [32mmeta-pipeline[0m and container [32mstep-merge-pull-refs[0m
+SKIP merge-pull-refs: Nothing to merge
+
+Showing logs for build [32mmeta-dhgautam-pipelineapp-maste-2gtbz-2[0m stage [32mmeta-pipeline[0m and container [32mstep-create-effective-pipeline[0m
+error: failed to load project config in dir /workspace/source: Validation failures in YAML file /workspace/source/jenkins-x.yml:
+(root): Additional property pipelines is not allowed
+(root): Additional property overrides is not allowed
+[31m
+Pipeline failed on stage 'meta-pipeline' : container 'step-create-effective-pipeline'. The execution of the pipeline has stopped.[0m
